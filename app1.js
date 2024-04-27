@@ -4,7 +4,11 @@
 
 const button = document.querySelector('#btn-translate');
 const textInput = document.querySelector('.text-input');
+const output = document.querySelector('#output');
+
+
+
+
 button.addEventListener('click', () => {
-  console.log("clicked!");
-  console.log("input", textInput.value);
+  output.innerHTML = "jnjfnsjnf " + textInput.value;
 });
